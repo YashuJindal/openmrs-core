@@ -208,7 +208,7 @@ public class MessageServiceImpl implements MessageService {
 	}
 	
 	/**
--        * Sends a message to a group of users identifier by thir role.
+-        * Sends a message to a group of users identifier by their role.
 +        * Sends a message to a group of users identifier by their role.
 	 */
 	public void sendMessage(Message message, Role role) throws MessageException {
@@ -239,7 +239,7 @@ public class MessageServiceImpl implements MessageService {
 	 * Prepare a message based on a template and data used for variable substitution within template.
 	 *
 	 * @param templateName name of the template to be used
-	 * @param data data mapping used for variable substitution within template
+	 * @param data mapping used for variable substitution within template
 	 * @return the prepared Message
 	 */
 	@SuppressWarnings("unchecked")
